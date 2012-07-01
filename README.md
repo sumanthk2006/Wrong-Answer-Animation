@@ -5,4 +5,5 @@ Just an animation I made in a couple of minutes that's supposed to be used when 
 
 Here's demo of it:
 
+![My image](username.github.com/repository/img/image.jpg)
 url : http://s15.postimage.org/6guni28rd/rested_1341103501_848613.gif
