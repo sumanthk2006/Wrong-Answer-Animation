@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A51A72158AD3E100103D1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A51A71158AD3E100103D1C /* UIKit.framework */; };
+		37A51A74158AD3E100103D1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A51A73158AD3E100103D1C /* Foundation.framework */; };
+		37A51A76158AD3E100103D1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A51A75158AD3E100103D1C /* CoreGraphics.framework */; };
+		37A51A7C158AD3E100103D1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A51A7A158AD3E100103D1C /* InfoPlist.strings */; };
+		37A51A7E158AD3E100103D1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A51A7D158AD3E100103D1C /* main.m */; };
+		37A51A82158AD3E100103D1C /* PSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A51A81158AD3E100103D1C /* PSAppDelegate.m */; };
+		37A51A85158AD3E100103D1C /* PSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A51A84158AD3E100103D1C /* PSViewController.m */; };
+		37A51A88158AD3E100103D1C /* PSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37A51A86158AD3E100103D1C /* PSViewController.xib */; };
+		37A51A8F158AD3F800103D1C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A51A8E158AD3F800103D1C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37A51A6D158AD3E100103D1C /* Incorrect Answer Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Incorrect Answer Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37A51A71158AD3E100103D1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37A51A73158AD3E100103D1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37A51A75158AD3E100103D1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37A51A79158AD3E100103D1C /* Incorrect Answer Animation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Incorrect Answer Animation-Info.plist"; sourceTree = "<group>"; };
+		37A51A7B158AD3E100103D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37A51A7D158AD3E100103D1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37A51A7F158AD3E100103D1C /* Incorrect Answer Animation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Incorrect Answer Animation-Prefix.pch"; sourceTree = "<group>"; };
+		37A51A80158AD3E100103D1C /* PSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSAppDelegate.h; sourceTree = "<group>"; };
+		37A51A81158AD3E100103D1C /* PSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSAppDelegate.m; sourceTree = "<group>"; };
+		37A51A83158AD3E100103D1C /* PSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PSViewController.h; sourceTree = "<group>"; };
+		37A51A84158AD3E100103D1C /* PSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PSViewController.m; sourceTree = "<group>"; };
+		37A51A87158AD3E100103D1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PSViewController.xib; sourceTree = "<group>"; };
+		37A51A8E158AD3F800103D1C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37A51A6A158AD3E100103D1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A51A8F158AD3F800103D1C /* QuartzCore.framework in Frameworks */,
+				37A51A72158AD3E100103D1C /* UIKit.framework in Frameworks */,
+				37A51A74158AD3E100103D1C /* Foundation.framework in Frameworks */,
+				37A51A76158AD3E100103D1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37A51A62158AD3E100103D1C = {
+			isa = PBXGroup;
+			children = (
+				37A51A77158AD3E100103D1C /* Incorrect Answer Animation */,
+				37A51A70158AD3E100103D1C /* Frameworks */,
+				37A51A6E158AD3E100103D1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37A51A6E158AD3E100103D1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37A51A6D158AD3E100103D1C /* Incorrect Answer Animation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37A51A70158AD3E100103D1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37A51A8E158AD3F800103D1C /* QuartzCore.framework */,
+				37A51A71158AD3E100103D1C /* UIKit.framework */,
+				37A51A73158AD3E100103D1C /* Foundation.framework */,
+				37A51A75158AD3E100103D1C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37A51A77158AD3E100103D1C /* Incorrect Answer Animation */ = {
+			isa = PBXGroup;
+			children = (
+				37A51A80158AD3E100103D1C /* PSAppDelegate.h */,
+				37A51A81158AD3E100103D1C /* PSAppDelegate.m */,
+				37A51A83158AD3E100103D1C /* PSViewController.h */,
+				37A51A84158AD3E100103D1C /* PSViewController.m */,
+				37A51A86158AD3E100103D1C /* PSViewController.xib */,
+				37A51A78158AD3E100103D1C /* Supporting Files */,
+			);
+			path = "Incorrect Answer Animation";
+			sourceTree = "<group>";
+		};
+		37A51A78158AD3E100103D1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37A51A79158AD3E100103D1C /* Incorrect Answer Animation-Info.plist */,
+				37A51A7A158AD3E100103D1C /* InfoPlist.strings */,
+				37A51A7D158AD3E100103D1C /* main.m */,
+				37A51A7F158AD3E100103D1C /* Incorrect Answer Animation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37A51A6C158AD3E100103D1C /* Incorrect Answer Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A51A8B158AD3E100103D1C /* Build configuration list for PBXNativeTarget "Incorrect Answer Animation" */;
+			buildPhases = (
+				37A51A69158AD3E100103D1C /* Sources */,
+				37A51A6A158AD3E100103D1C /* Frameworks */,
+				37A51A6B158AD3E100103D1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Incorrect Answer Animation";
+			productName = "Incorrect Answer Animation";
+			productReference = 37A51A6D158AD3E100103D1C /* Incorrect Answer Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37A51A64158AD3E100103D1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 37A51A67158AD3E100103D1C /* Build configuration list for PBXProject "Incorrect Answer Animation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37A51A62158AD3E100103D1C;
+			productRefGroup = 37A51A6E158AD3E100103D1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37A51A6C158AD3E100103D1C /* Incorrect Answer Animation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37A51A6B158AD3E100103D1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A51A7C158AD3E100103D1C /* InfoPlist.strings in Resources */,
+				37A51A88158AD3E100103D1C /* PSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37A51A69158AD3E100103D1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37A51A7E158AD3E100103D1C /* main.m in Sources */,
+				37A51A82158AD3E100103D1C /* PSAppDelegate.m in Sources */,
+				37A51A85158AD3E100103D1C /* PSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37A51A7A158AD3E100103D1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A51A7B158AD3E100103D1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37A51A86158AD3E100103D1C /* PSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A51A87158AD3E100103D1C /* en */,
+			);
+			name = PSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37A51A89158AD3E100103D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37A51A8A158AD3E100103D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37A51A8C158AD3E100103D1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Incorrect Answer Animation/Incorrect Answer Animation-Prefix.pch";
+				INFOPLIST_FILE = "Incorrect Answer Animation/Incorrect Answer Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37A51A8D158AD3E100103D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Incorrect Answer Animation/Incorrect Answer Animation-Prefix.pch";
+				INFOPLIST_FILE = "Incorrect Answer Animation/Incorrect Answer Animation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A51A67158AD3E100103D1C /* Build configuration list for PBXProject "Incorrect Answer Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A51A89158AD3E100103D1C /* Debug */,
+				37A51A8A158AD3E100103D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37A51A8B158AD3E100103D1C /* Build configuration list for PBXNativeTarget "Incorrect Answer Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A51A8C158AD3E100103D1C /* Debug */,
+				37A51A8D158AD3E100103D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37A51A64158AD3E100103D1C /* Project object */;
+}
